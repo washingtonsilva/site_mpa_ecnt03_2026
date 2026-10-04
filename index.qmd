@@ -1,0 +1,24 @@
+---
+lang: pt-BR
+title: "Econometria III - 2026"
+subtitle: "Mestrado Profissional em Administração <br> IFMG Campus Formiga"
+---
+
+## Bem-vindo à disciplina
+
+Esta disciplina objetiva preparar os mestrandos para desenvolver nos mestrandos competências para especificar, estimar, diagnosticar e interpretar modelos econométricos para dados em painel.
+
+## Informações gerais
+
+- **Professor:** [Prof. Dr. Washington Santos da Silva](https://washingtonsilva.github.io){target="_blank"}
+- **E-mail:** washington.silva@ifmg.edu.br
+- **Horário de aula:** Segunda-Feira, 18:30-22:30
+- **Local:** aulas síncronas via Google Meet e aula presencial
+
+
+## Conteúdo
+
+- [Programa da Disciplina](programa.qmd): objetivos, ementa, bibliografia, 
+  entre outros.
+- [Cronograma](cronograma.qmd): slides das aulas, arquivos de dados.
+

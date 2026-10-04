@@ -1,0 +1,79 @@
+# macOS
+
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100/
+.Trashes/
+.TemporaryItems/
+
+
+# Memória operacional local do Codex
+
+codex.md
+
+# Quarto
+
+.quarto/
+_site/
+_book/
+_output/
+
+*_cache/
+
+**/*.quarto_ipynb
+
+# Configurações locais do Quarto
+
+_quarto.yml.local
+_quarto-*.yml.local
+
+# Não ignore _freeze/ quando o recurso execute: freeze estiver em uso.
+# O conteúdo dessa pasta deve, em geral, ser versionado.
+
+# R
+
+.Rhistory
+.RData
+.RDataTmp
+.Ruserdata
+
+# Pode conter credenciais e variáveis locais
+
+.Renviron
+.Renviron.*
+!.Renviron.example
+
+# Python e Jupyter
+
+__pycache__/
+*.py[cod]
+
+.venv/
+venv/
+__pypackages__/
+
+.ipynb_checkpoints/
+.jupyter_cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Arquivos temporários e cópias de segurança de editores
+
+*.bak
+*.tmp
+*.swp
+*~
+
+
+# Variáveis de ambiente e credenciais
+
+.env
+.env.*
+!.env.example
+
+/.quarto/

@@ -1,0 +1,120 @@
+---
+lang: pt-BR
+title: "Programa da Disciplina"
+subtitle: "Econometria III <br> Mestrado Profissional em Administração"
+author: "Prof. Dr. Washington S. da Silva"
+---
+
+
+## Objetivo Geral
+
+Desenvolver nos mestrandos competências para especificar, estimar, diagnosticar e interpretar modelos 
+econométricos para dados em painel, estáticos e dinâmicos, utilizando R e considerando adequadamente as 
+hipóteses de identificação e inferência.
+
+
+
+## Objetivos Específicos
+
+Ao final da disciplina, espera-se que o mestrando seja capaz de:
+
+1. Compreender a estrutura dos dados em painel e o papel da heterogeneidade individual não observada.
+
+2. Estimar e interpretar modelos por primeiras diferenças, efeitos fixos e efeitos aleatórios, reconhecendo suas hipóteses e limitações.
+
+3. Realizar inferência em modelos de painel, empregando erros-padrão robustos a agrupamentos e reconhecendo a importância da dependência entre observações para a inferência.
+
+4. Compreender os fundamentos e aplicar modelos dinâmicos em painel por GMM em diferenças e GMM em sistema, avaliando os principais diagnósticos da estimação.
+
+5. Compreender Diferenças em Diferenças como estratégia de identificação causal com dados em painel e avaliar criticamente as hipóteses necessárias à interpretação dos resultados.
+
+6. Implementar e interpretar os principais procedimentos da disciplina em R.
+
+
+
+## Avaliação
+
+Trata-se de um planejamento e pode ser alterado conforme o andamento da disciplina.
+
+1. **Avaliação 1 (30 pontos)** — quatro ou cinco atividades práticas distribuídas ao longo das aulas regulares.
+
+2. **Avaliação 2 (30 pontos)** — seminário individual sobre uma extensão de econometria de dados em painel.
+
+3. **Avaliação 3 (40 pontos)** — exame final teórico-prático em R.
+
+**Critério de aprovação:** nota final igual ou superior a 60 pontos.
+
+
+
+## Bibliografia Básica
+
+HILL, R. Carter; GRIFFITHS, William E.; LIM, Guay C. **Principles of Econometrics**. 5. ed. Hoboken, NJ: Wiley, 2018.
+
+WOOLDRIDGE, Jeffrey M. **Introductory Econometrics: A Modern Approach**. 8. ed. Cengage, 2025.
+
+WOOLDRIDGE, Jeffrey M. **Econometric Analysis of Cross Section and Panel Data**. 2. ed. Cambridge, MA: MIT Press, 2010.
+
+
+## Bibliografia Complementar
+
+BALTAGI, Badi H. **Econometric Analysis of Panel Data**. 6. ed. Cham: Springer, 2021.
+
+CROISSANT, Yves; MILLO, Giovanni. **Panel Data Econometrics with R**. Wiley, 2018.
+
+
+
+
+## Ementa
+
+Estrutura de dados em painel e heterogeneidade individual não observada. Modelos por primeiras diferenças, efeitos fixos e efeitos aleatórios. Inferência em modelos de painel. Modelos dinâmicos em painel. Diferenças em Diferenças com dados em painel. Aplicações computacionais em R.
+
+
+
+## Conteúdo Programático
+
+1. Dados em painel e o modelo de efeitos fixos
+
+2. O modelo de efeitos aleatórios e comparação EF–EA 
+
+3. Inferência em dados em painel
+
+4. Modelos dinâmicos para dados em painel
+
+5. Diferenças em Diferenças
+
+
+
+## Recursos Didáticos
+
+Os recursos didáticos utilizados na disciplina incluem:
+
+* bibliografia recomendada;
+* slides e notas de aula;
+* bases de dados para aplicações;
+* linguagem R e ambiente RStudio.
+
+
+
+## Metodologia de Ensino
+
+A disciplina combinará exposição conceitual e atividades práticas. Nas aulas regulares, a exposição ocupará 
+até aproximadamente duas horas, com apresentação e explicação do código R necessário aos procedimentos 
+estudados. As atividades práticas ocuparão o tempo restante.
+
+
+
+## Plano de Aula
+
+Trata-se apenas de um plano, portanto, pode ser alterado.
+
+| Aula |  Data | Tópico                                              |
+| ---: |:-----:| --------------------------------------------------- |
+|    1 | 05/10 | Dados em painel e o modelo de efeitos fixos         |
+|    2 | 19/10 | O modelo de efeitos aleatórios e comparação EF–EA   |
+|    3 | 26/10 | Inferência em dados em painel                       |
+|    4 | 09/11 | Modelos dinâmicos para dados em painel I            |
+|    5 | 16/11 | Modelos dinâmicos para dados em painel II           |
+|    6 | 23/11 | Diferenças em Diferenças                            |
+|    7 | 30/11 | Avaliação 2 — seminários individuais                |
+|    8 | 07/12 | Avaliação 3 — exame final teórico-prático em R      |
+

@@ -1,0 +1,37 @@
+---
+title: "Cronograma"
+lang: pt-BR
+---
+
+Aqui estão o cronograma e os materiais de cada aula, como slides, arquivos 
+de dados, atividades, entre outros.
+
+
+::: {.callout-tip icon="false"}
+## Como navegar pelos slides
+
+Os slides são interativos e foram produzidos em **revealjs**.
+
+Ao abrir um arquivo de slides, utilize:
+
+- **Setas (← →)**: avançar e voltar.
+- **`F`**: tela cheia.
+- **`O`**: visão geral dos slides.
+- **`Esc`**: sair da visão geral.
+- Em dispositivos móveis, deslize para os lados.
+
+Os slides abrem em uma nova aba do navegador.
+:::
+
+
+
+
+# Aula 1 (05/10/26)
+
+- **Slides:**
+
+  - [Slides Aula 1](slides/01-aula.html){target="_blank"}
+  - [01-atividade.zip](atividades/01-atividade.zip)
+  - [equipes-varsity-treina-mais.csv](dados/equipes-varsity-treina-mais.csv)
+  - [Data_AgricultureClimate.csv](dados/Data_AgricultureClimate.csv)
+

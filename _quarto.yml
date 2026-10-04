@@ -1,0 +1,40 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+  resources:
+    - "slides/"
+    - "atividades/"
+    - "dados/"
+    
+
+website:
+  title: "Econometria III"
+  navbar:
+    background: primary
+  page-footer:
+    left: "Copyright 2026 Washington Santos da Silva"
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/washingtonssilva/
+      - icon: globe
+        href: https://washingtonsilva.github.io
+    background: "#1E4D35"
+
+  sidebar:
+    style: docked
+    search: true
+    contents:
+          - text: "Início"
+            href: index.qmd
+          - text: "Programa da Disciplina"
+            href: programa.qmd
+          - cronograma.qmd
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: true
+    lang: pt-BR
