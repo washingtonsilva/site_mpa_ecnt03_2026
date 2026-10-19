@@ -32,6 +32,7 @@ Os slides abrem em uma nova aba do navegador.
 
   - [Slides Aula 1](slides/01-aula.html){target="_blank"}
   - [01-atividade.zip](atividades/01-atividade.zip)
+  - [Solução da atividade 1](atividades/01-atividade-gabarito.html){target="_blank"}
   - [equipes-varsity-treina-mais.csv](dados/equipes-varsity-treina-mais.csv)
   - [Data_AgricultureClimate.csv](dados/Data_AgricultureClimate.csv)
 
