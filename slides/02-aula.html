@@ -2237,6 +2237,20 @@ y_{it}-\bar y_i
 <p>Aplicar MQO ao modelo transformado produz o <strong>estimador <em>within</em></strong> de efeitos fixos, que usa a variação das regressoras <strong>dentro das unidades ao longo do tempo</strong>.</p>
 </div>
 </section>
+<section id="efeitos-fixos-pseudocódigo-para-estimação" class="slide level2">
+<h2>Efeitos fixos: pseudocódigo para estimação</h2>
+<div class="pseudocode-small">
+<ol type="1">
+<li><p><span class="purple"><strong>Calcule as médias individuais</strong></span> de <span class="math inline">\(y_{it}\)</span> e <span class="math inline">\(x_{it}\)</span> ao longo do tempo: <span class="math inline">\(\bar y_i\)</span> e <span class="math inline">\(\bar x_i\)</span>.</p></li>
+<li><p><span class="purple"><strong>Aplique a transformação <em>within</em></strong></span>: <span class="math inline">\(\tilde y_{it}=y_{it}-\bar y_i\)</span> e <span class="math inline">\(\tilde x_{it}=x_{it}-\bar x_i\)</span>.</p></li>
+<li><p><span class="purple"><strong>Estime por MQO, sem intercepto</strong></span>, a regressão transformada: <span class="math inline">\(\tilde y_{it}=\tilde x_{it}&#39;\beta+\tilde e_{it}\)</span>.</p></li>
+<li><p><span class="purple"><strong>Obtenha <span class="math inline">\(\hat{\beta}_{EF}\)</span></strong></span>, utilizando a variação das regressoras dentro das unidades.</p></li>
+</ol>
+</div>
+<div class="fragment">
+<p><strong>Consequência:</strong> a transformação elimina <span class="math inline">\(u_i\)</span>, a constante e as regressoras invariáveis no tempo <span class="math inline">\(w_i\)</span>. Portanto, os coeficientes <span class="math inline">\(\gamma\)</span> não são identificados por EF.</p>
+</div>
+</section>
 <section id="efeitos-fixos-hipóteses" class="slide level2 fit-compact">
 <h2>Efeitos fixos: hipóteses</h2>
 <div class="fragment">
@@ -2576,6 +2590,41 @@ x_{it}^{*}
 </div>
 <div class="fragment">
 <p>Se <span class="math inline">\(w_i\)</span> estiver correlacionado com <span class="math inline">\(u_i\)</span>, estará correlacionado com o erro composto <span class="math inline">\(v_{it}=u_i+e_{it}\)</span>, sob a <span class="purple b">exogeneidade</span> de <span class="math inline">\(e_{it}\)</span>. <strong>O estimador convencional de EA será, em geral, <span class="pink b">inconsistente</span>.</strong></p>
+</div>
+</section>
+<section id="efeitos-aleatórios-pseudocódigo-para-estimação" class="slide level2 fit-compact">
+<h2>Efeitos aleatórios: pseudocódigo para estimação</h2>
+<p>Para o modelo convencional de EA, em um <strong>painel balanceado</strong>:</p>
+<div class="pseudocode-small">
+<ol type="1">
+<li><p><span class="purple"><strong>Estime os componentes de variância</strong></span> do erro composto, <span class="math inline">\(\hat{\sigma}_e^2\)</span> e <span class="math inline">\(\hat{\sigma}_u^2\)</span>, por um procedimento como Swamy–Arora <span class="citation" data-cites="swamy1972">(<a href="#/referências" role="doc-biblioref" onclick>Swamy e Arora, 1972</a>)</span>.</p></li>
+<li><p><span class="purple"><strong>Calcule o parâmetro da transformação</strong></span>, utilizando as variâncias estimadas:</p>
+<p><span class="math inline">\(\hat{\alpha}=1-\sqrt{\dfrac{\hat{\sigma}_e^2}{\hat{\sigma}_e^2+T\hat{\sigma}_u^2}}\)</span>.</p></li>
+<li><p><span class="purple"><strong>Aplique o quasi-demeaning</strong></span> à variável dependente e a todas as regressoras:</p>
+<p><span class="math inline">\(z_{it}^{*}=z_{it}-\hat{\alpha}\bar z_i\)</span></p></li>
+<li><p><span class="purple"><strong>Estime por MQO a equação transformada</strong></span>, obtendo as estimativas dos coeficientes de EA pelo método FGLS.</p></li>
+</ol>
+</div>
+<div class="fragment">
+<p><strong>Importante:</strong> a transformação também se aplica à constante e às regressoras invariáveis no tempo: <span class="math inline">\(1^*=1-\hat{\alpha}\)</span> e <span class="math inline">\(w_i^*=(1-\hat{\alpha})w_i\)</span>.</p>
+</div>
+</section>
+<section id="método-de-swamyarora-pseudocódigo" class="slide level2 fit-compact">
+<h2>Método de Swamy–Arora: pseudocódigo</h2>
+<p>Para estimar os <strong>componentes de variância</strong> do modelo de EA, em um painel balanceado:</p>
+<div class="pseudocode-small">
+<ol type="1">
+<li><p><span class="purple"><strong>Aplique a transformação within</strong></span> e estime por MQO a regressão transformada (estimador de efeitos fixos). Obtenha <span class="math inline">\(SQR_W\)</span>.</p></li>
+<li><p><span class="purple"><strong>Aplique a transformação between</strong></span>, calculando as médias temporais de cada unidade. Estime por MQO a regressão das médias, incluindo o intercepto e as regressoras invariáveis no tempo. Obtenha <span class="math inline">\(SQR_B\)</span>.</p></li>
+<li><p><span class="purple"><strong>Estime a variância do erro idiossincrático</strong></span>:</p>
+<p><span class="math inline">\(\hat{\sigma}_e^2=\dfrac{SQR_W}{NT-N-K_W}\)</span>.</p></li>
+<li><p><span class="purple"><strong>Estime a variância do efeito individual</strong></span>:</p>
+<p><span class="math inline">\(\hat{\sigma}_u^2=\max\left\{0,\dfrac{SQR_B}{N-K_B}-\dfrac{\hat{\sigma}_e^2}{T}\right\}\)</span>.</p></li>
+</ol>
+</div>
+<p><span class="math inline">\(N\)</span>: unidades; <span class="math inline">\(T\)</span>: períodos; <span class="math inline">\(K_W\)</span>: coeficientes estimados por <em>within</em>; <span class="math inline">\(K_B\)</span>: coeficientes estimados por <em>between</em>, incluindo o intercepto.</p>
+<div class="fragment">
+<p><strong>Resultado:</strong> <span class="math inline">\(\hat{\sigma}_e^2\)</span> e <span class="math inline">\(\hat{\sigma}_u^2\)</span> permitem calcular <span class="math inline">\(\hat{\alpha}\)</span> e prosseguir com o algoritmo FGLS de efeitos aleatórios.</p>
 </div>
 </section>
 <section id="investimento-e-fluxo-de-caixa-exemplo-simulado" class="slide level2 fit-compact">
@@ -3366,6 +3415,9 @@ HAUSMAN, J. A. <a href="https://doi.org/10.2307/1913827">Specification Tests in 
 </div>
 <div id="ref-hill2018" class="csl-entry" role="listitem">
 HILL, R. C.; GRIFFITHS, W. E.; LIM, G. C. <strong>Principles of Econometrics</strong>. 5. ed. Hoboken, NJ: John Wiley &amp; Sons, 2018.
+</div>
+<div id="ref-swamy1972" class="csl-entry" role="listitem">
+SWAMY, P. A. V. B.; ARORA, S. S. <a href="https://doi.org/10.2307/1909405">The Exact Finite Sample Properties of the Estimators of Coefficients in the Error Components Regression Models</a>. <strong>Econometrica</strong>, v. 40, n. 2, p. 261–275, 1972.
 </div>
 <div id="ref-wooldridge2010" class="csl-entry" role="listitem">
 WOOLDRIDGE, J. M. <strong>Econometric Analysis of Cross Section and Panel Data</strong>. 2. ed. Cambridge, MA: The MIT Press, 2010.
