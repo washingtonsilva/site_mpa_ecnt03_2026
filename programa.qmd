@@ -40,11 +40,11 @@ Ao final da disciplina, espera-se que o mestrando seja capaz de:
 
 Trata-se de um planejamento e pode ser alterado conforme o andamento da disciplina.
 
-1. **Avaliação 1 (30 pontos)** — quatro ou cinco atividades práticas distribuídas ao longo das aulas regulares.
+1. **Avaliação 1 (33 pontos)** — quatro ou cinco atividades práticas distribuídas ao longo das aulas regulares.
 
-2. **Avaliação 2 (30 pontos)** — seminário individual sobre uma extensão de econometria de dados em painel.
+2. **Avaliação 2 (33 pontos)** — seminário individual sobre uma extensão de econometria de dados em painel.
 
-3. **Avaliação 3 (40 pontos)** — exame final teórico-prático em R.
+3. **Avaliação 3 (34 pontos)** — exame final teórico-prático em R.
 
 **Critério de aprovação:** nota final igual ou superior a 60 pontos.
 
