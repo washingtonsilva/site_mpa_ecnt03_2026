@@ -28,7 +28,7 @@ Os slides abrem em uma nova aba do navegador.
 
 # Aula 1 (05/10/26)
 
-- **Slides:**
+- **Materiais:**
 
   - [Slides Aula 1](slides/01-aula.html){target="_blank"}
   - [01-atividade.zip](atividades/01-atividade.zip)
@@ -41,7 +41,19 @@ Os slides abrem em uma nova aba do navegador.
 
 # Aula 2 (19/10/26)
 
-- **Slides:**
+- **Materiais:**
 
   - [Slides Aula 2](slides/02-aula.html){target="_blank"}
   - [02-atividade.zip](atividades/02-atividade.zip)
+
+
+
+
+
+# Aula 3 (26/10/26)
+
+- **Materiais:**
+
+  - [Slides Aula 3](slides/03-aula.html){target="_blank"}
+  - [Atividade 3](atividades/03-atividade.html)
+  - [03-atividade-template.zip](atividades/03-atividade-template.zip)

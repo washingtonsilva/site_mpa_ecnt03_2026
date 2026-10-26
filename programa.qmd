@@ -115,7 +115,7 @@ Trata-se apenas de um plano, portanto, pode ser alterado.
 | ---: |:-----:| --------------------------------------------------- |
 |    1 | 05/10 | Dados em painel e o modelo de efeitos fixos         |
 |    2 | 19/10 | O modelo de efeitos aleatórios e comparação EF–EA   |
-|    3 | 26/10 | Inferência em dados em painel                       |
+|    3 | 26/10 | Inferência em modelos para dados em painel          |
 |    4 | 09/11 | Modelos dinâmicos para dados em painel I            |
 |    5 | 16/11 | Modelos dinâmicos para dados em painel II           |
 |    6 | 23/11 | Diferenças em Diferenças                            |

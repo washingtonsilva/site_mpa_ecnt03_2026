@@ -104,7 +104,7 @@
     "href": "programa.html#plano-de-aula",
     "title": "Programa da Disciplina",
     "section": "Plano de Aula",
-    "text": "Plano de Aula\nTrata-se apenas de um plano, portanto, pode ser alterado.\n\n\n\nAula\nData\nTópico\n\n\n\n\n1\n05/10\nDados em painel e o modelo de efeitos fixos\n\n\n2\n19/10\nO modelo de efeitos aleatórios e comparação EF–EA\n\n\n3\n26/10\nInferência em dados em painel\n\n\n4\n09/11\nModelos dinâmicos para dados em painel I\n\n\n5\n16/11\nModelos dinâmicos para dados em painel II\n\n\n6\n23/11\nDiferenças em Diferenças\n\n\n7\n30/11\nAvaliação 2 — seminários individuais\n\n\n8\n07/12\nAvaliação 3 — exame final teórico-prático em R",
+    "text": "Plano de Aula\nTrata-se apenas de um plano, portanto, pode ser alterado.\n\n\n\nAula\nData\nTópico\n\n\n\n\n1\n05/10\nDados em painel e o modelo de efeitos fixos\n\n\n2\n19/10\nO modelo de efeitos aleatórios e comparação EF–EA\n\n\n3\n26/10\nInferência em modelos para dados em painel\n\n\n4\n09/11\nModelos dinâmicos para dados em painel I\n\n\n5\n16/11\nModelos dinâmicos para dados em painel II\n\n\n6\n23/11\nDiferenças em Diferenças\n\n\n7\n30/11\nAvaliação 2 — seminários individuais\n\n\n8\n07/12\nAvaliação 3 — exame final teórico-prático em R",
     "crumbs": [
       "Programa da Disciplina"
     ]
@@ -114,7 +114,7 @@
     "href": "cronograma.html",
     "title": "Cronograma",
     "section": "",
-    "text": "Aqui estão o cronograma e os materiais de cada aula, como slides, arquivos de dados, atividades, entre outros.\n\n\n\n\n\n\nDicaComo navegar pelos slides\n\n\n\nOs slides são interativos e foram produzidos em revealjs.\nAo abrir um arquivo de slides, utilize:\n\nSetas (← →): avançar e voltar.\nF: tela cheia.\nO: visão geral dos slides.\nEsc: sair da visão geral.\nEm dispositivos móveis, deslize para os lados.\n\nOs slides abrem em uma nova aba do navegador.\n\n\n\nAula 1 (05/10/26)\n\nSlides:\n\nSlides Aula 1\n01-atividade.zip\nSolução da atividade 1\nequipes-varsity-treina-mais.csv\nData_AgricultureClimate.csv\n\n\n\n\nAula 2 (19/10/26)\n\nSlides:\n\nSlides Aula 2\n02-atividade.zip",
+    "text": "Aqui estão o cronograma e os materiais de cada aula, como slides, arquivos de dados, atividades, entre outros.\n\n\n\n\n\n\nDicaComo navegar pelos slides\n\n\n\nOs slides são interativos e foram produzidos em revealjs.\nAo abrir um arquivo de slides, utilize:\n\nSetas (← →): avançar e voltar.\nF: tela cheia.\nO: visão geral dos slides.\nEsc: sair da visão geral.\nEm dispositivos móveis, deslize para os lados.\n\nOs slides abrem em uma nova aba do navegador.\n\n\n\nAula 1 (05/10/26)\n\nMateriais:\n\nSlides Aula 1\n01-atividade.zip\nSolução da atividade 1\nequipes-varsity-treina-mais.csv\nData_AgricultureClimate.csv\n\n\n\n\nAula 2 (19/10/26)\n\nMateriais:\n\nSlides Aula 2\n02-atividade.zip\n\n\n\n\nAula 3 (26/10/26)\n\nMateriais:\n\nSlides Aula 3\nAtividade 3\n03-atividade-template.zip",
     "crumbs": [
       "Cronograma"
     ]
