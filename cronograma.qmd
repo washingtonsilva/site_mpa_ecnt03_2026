@@ -57,3 +57,5 @@ Os slides abrem em uma nova aba do navegador.
   - [Slides Aula 3](slides/03-aula.html){target="_blank"}
   - [Atividade 3](atividades/03-atividade.html)
   - [03-atividade-template.zip](atividades/03-atividade-template.zip)
+  - **Orientação:** No caso das questões que envolvem reproduzir os resultados com o pacote 
+  **fixest**, após completar as lacunas, altere `#| eval: false` para `#| eval: true` para verificar se a célula de código é executada corretamente. Caso não faça esta alteração, as células não serão executadas.
