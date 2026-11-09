@@ -59,3 +59,18 @@ Os slides abrem em uma nova aba do navegador.
   - [03-atividade-template.zip](atividades/03-atividade-template.zip)
   - **Orientação:** No caso das questões que envolvem reproduzir os resultados com o pacote 
   **fixest**, após completar as lacunas, altere `#| eval: false` para `#| eval: true` para verificar se a célula de código é executada corretamente. Caso não faça esta alteração, as células não serão executadas.
+
+
+
+
+
+# Aula 4 (09/11/26)
+
+- **Materiais:**
+
+  - [Slides Aula 4](slides/04-aula.html){target="_blank"}
+  - [04-atividade.zip](atividades/04-atividade.zip)
+
+
+
+
