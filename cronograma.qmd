@@ -74,3 +74,15 @@ Os slides abrem em uma nova aba do navegador.
 
 
 
+
+# Aula 5 (16/11/26)
+
+- **Materiais:**
+
+  - [Slides Aula 5](slides/05-aula.html){target="_blank"}
+  - [Atividade 5](atividades/05-atividade.html){target="_blank"}
+  - [05-atividade-site.zip](atividades/05-atividade-site.zip)
+  - [Invest1993.dta](dados/Invest1993.dta)
+
+
+
