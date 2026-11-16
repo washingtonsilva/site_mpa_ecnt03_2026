@@ -69,7 +69,8 @@ Os slides abrem em uma nova aba do navegador.
 - **Materiais:**
 
   - [Slides Aula 4](slides/04-aula.html){target="_blank"}
-  - [04-atividade.zip](atividades/04-atividade.zip)
+  - [04-atividade.zip](atividades/04-atividade.zip) (use esta versão ajustada e confirme se o caminho relativo do arquivo de dados está correto no seu projeto da disciplina).
+  - [quantecon-hansen-singleton-1982.csv](dados/quantecon-hansen-singleton-1982.csv)
 
 
 
