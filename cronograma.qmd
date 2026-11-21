@@ -87,3 +87,15 @@ Os slides abrem em uma nova aba do navegador.
 
 
 
+
+
+# Aula 6 (23/11/26)
+
+- **Materiais:**
+
+  - [Slides Aula 6](slides/06-aula.html){target="_blank"}
+  - [Atividade 6](atividades/06-atividade.html){target="_blank"}
+  - [06-atividade-template.zip](atividades/06-atividade-template.zip)
+  - [RAC.dta](dados/RAC.dta)
+
+
